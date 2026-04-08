@@ -18,7 +18,7 @@ class RoleSerializer(serializers.ModelSerializer):
         model = Role
         fields = ['id', 'name', 'permissions']
 
-    # 🔥 IMPORTANT FIX
+    
     def create(self, validated_data):
         permissions = validated_data.pop('permissions')
         role = Role.objects.create(**validated_data)

@@ -19,7 +19,6 @@ function PermissionList() {
     fetchPermissions();
   };
 
-  // UPDATE (simple prompt)
   const handleUpdate = async (p) => {
     const newName = prompt("Enter new name", p.name);
     const newCode = prompt("Enter new code", p.code);
@@ -48,12 +47,11 @@ function PermissionList() {
           borderBottom: "1px solid #eee"
         }}
       >
-        {/* Left side (text) */}
+        
         <div>
           <b>{p.name}</b> ({p.code})
         </div>
 
-        {/* Right side (buttons) */}
         <div>
           <button
             style={{

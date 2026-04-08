@@ -47,10 +47,8 @@ function CreateRole() {
       {permissions.map(p => (
       <div key={p.id} className="permission-item">
         
-        {/* Left side name */}
         <span>{p.name}</span>
 
-        {/* Right side checkbox */}
         <input
           type="checkbox"
           checked={selected.includes(p.id)}

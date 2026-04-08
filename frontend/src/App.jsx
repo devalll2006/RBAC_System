@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="container">
 
-      {/* Sidebar */}
       <div className="sidebar">
         <h2>RBAC Panel</h2>
         <ul>
@@ -20,9 +19,8 @@ function App() {
         </ul>
       </div>
 
-      {/* Main */}
       <div className="main">
-        <h1 className="title">RBAC Dashboard 🚀</h1>
+        <h1 className="title">RBAC Dashboard</h1>
 
         <div className="grid">
 
