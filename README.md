@@ -16,3 +16,6 @@ A full-stack web application to manage users, roles, and permissions using **Dja
 ---
 
 ## RBAC Architecture
+- One User → One Role  
+- One Role → Multiple Permissions  
+
